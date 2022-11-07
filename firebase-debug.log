@@ -1,0 +1,86 @@
+[debug] [2022-11-07T14:48:39.399Z] ----------------------------------------------------------------------
+[debug] [2022-11-07T14:48:39.399Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-11-07T14:48:39.400Z] CLI Version:   10.6.0
+[debug] [2022-11-07T14:48:39.400Z] Platform:      darwin
+[debug] [2022-11-07T14:48:39.400Z] Node Version:  v16.14.0
+[debug] [2022-11-07T14:48:39.400Z] Time:          Mon Nov 07 2022 20:48:39 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-11-07T14:48:39.401Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-07T14:48:39.428Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-07T14:48:39.429Z] > authorizing via signed-in user (saleh.ahmed.mahin@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/salehahmedmahin/Documents/doctors-portal-client-module-77
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-07T14:48:53.662Z] Using project from CLI flag: doctors-portal-11594
+[debug] [2022-11-07T14:48:53.663Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-11594 [none]
+[debug] [2022-11-07T14:48:54.561Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-11594 403
+[debug] [2022-11-07T14:48:54.561Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-11594 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-07T14:48:54.562Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-07T14:48:54.563Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:47:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project doctors-portal-11594. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-11-07T14:49:07.408Z] ----------------------------------------------------------------------
+[debug] [2022-11-07T14:49:07.409Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-11-07T14:49:07.409Z] CLI Version:   10.6.0
+[debug] [2022-11-07T14:49:07.409Z] Platform:      darwin
+[debug] [2022-11-07T14:49:07.409Z] Node Version:  v16.14.0
+[debug] [2022-11-07T14:49:07.410Z] Time:          Mon Nov 07 2022 20:49:07 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-11-07T14:49:07.410Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-07T14:49:07.436Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-07T14:49:07.436Z] > authorizing via signed-in user (saleh.ahmed.mahin@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/salehahmedmahin/Documents/doctors-portal-client-module-77
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-07T14:49:19.668Z] Using project from CLI flag: doctors-portal-11594
+[debug] [2022-11-07T14:49:19.671Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-11594 [none]
+[debug] [2022-11-07T14:49:20.264Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-11594 403
+[debug] [2022-11-07T14:49:20.264Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-11594 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-07T14:49:20.265Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-07T14:49:20.266Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:47:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project doctors-portal-11594. Please make sure the project exists and your account has permission to access it.
